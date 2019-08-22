@@ -11,7 +11,7 @@ server.get('/home',(req,res)=>{
     });
     
     server.get('/add',(req,res)=>{
-        res.send("the result is   "+ (parseInt(req.query.num1)+parseInt(req.query.num2)));
+        res.send("Todays result is   "+ (parseInt(req.query.num1)+parseInt(req.query.num2)));
         });
         
  server.get('/name',(req,res)=>{
